@@ -21,6 +21,7 @@ while True:
        print('Sent ',l)
        l = f.read(1024)
     f.close()
+    #print the result
     print('Sent the file!')
     conn.send(b'Thank you for connecting')
     conn.close()

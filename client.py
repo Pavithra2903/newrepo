@@ -21,4 +21,5 @@ with open('received_file', 'wb') as f:
 f.close()
 print('Successfully received the file')
 s.close()
+#print the result
 print('connection closed')
