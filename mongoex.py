@@ -59,4 +59,5 @@ x=mycol.delete_one({"name":"Catherine"})
 
 print("Rows after Delete:")
 for x in mycol.find():
+#print the result
   print(x)
